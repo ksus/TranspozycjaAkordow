@@ -4,7 +4,8 @@ package transposition
 object Enter {
 
     private val A = listOf("D#", "E", "F", "F#", "G", "G#", "A", "A#", "H", "C", "C#", "D")
-    private val B = listOf("B-6", "B-5", "B-4", "B-3", "B-2", "B-1", "B", "B+1", "B+2", "B+3", "B+4", "B+5")
+    private val B = listOf("E", "F", "F#", "G", "G#", "A", "B", "H", "C", "C#", "D", "D#")
+    private val C = listOf("F#", "G", "G#", "A", "A#", "H", "C", "C#", "D", "D#", "E", "F")
 
     private fun trans(accord: String, grade: Int): String {
         return if (grade in -6..5)
