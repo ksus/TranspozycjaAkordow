@@ -12,6 +12,7 @@ object Enter {
             when (accord) {
                 "A" -> A[grade + 6]
                 "B" -> B[grade + 6]
+                "C" -> C[grade + 6]
                 else -> accord
             } else {
             accord
